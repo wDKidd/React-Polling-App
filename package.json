@@ -1,0 +1,23 @@
+{
+  "name": "polling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel-core": "^6.1.19",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.14.2",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "webpack": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
